@@ -1,4 +1,9 @@
-
+body {
+    font-family: Verdana, 'Times New Roman';
+    background-color: #000000;
+    color: #ffffff;
+    margin: 25px 25px 0px 25px;
+}
 
 h1 {
     font-size: 48px;
@@ -20,7 +25,8 @@ p {
 
 img {
     width: 350px;
-    align-items: center;
+    display:block;
+    margin: auto;
     border: #ffffff 10px dashed;
 }
 
@@ -84,20 +90,15 @@ span {
 }
 
 footer {
-    background-image: linear-gradient(to right, #000000, #0000ff 25, #0066ff 70, #000000);
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
+    display: block;
 }
 
 footer p {
-    align-self: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 20px;
     padding: 10px 10px 10px 0px;
 }
 
-* {
-    font-family: Verdana, 'Times New Roman';
-    background-color: #000000;
-    color: #ffffff;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px
-}
