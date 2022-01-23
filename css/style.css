@@ -1,0 +1,79 @@
+* {
+    font-family: Verdana, 'Times New Roman';
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2{
+    font-size: 32px;
+    text-shadow: #808080 
+    o
+}
+
+The level 2 heading is 32px, with grey (#808080) text-shadow property that is offset 2px horizontally and 4px vertically
+
+Paragraphs use 24px font and have 15px padding on the bottom and left only
+
+
+Images match the following styles:
+All images are 350px wide  (do not set a height)
+All images are centered 
+All images should have a white 10px dashed border
+
+
+All divs must:
+ be at least 100px tall (but will automatically be taller if needed)
+ have 20px padding on all sides
+have a 3px solid white border on all sides.
+
+
+The intro div should have a 15px border-radius (to curve the edges) and a 15px margin on the top.
+
+
+The red div has the following styles:
+Background color is hexadecimal value for red
+Text is aligned on the right side 
+A left margin of 50px;
+A  border of 3px on the bottom and 10px on the left;
+
+
+The blue div has the following styles
+Background color is hex value for blue
+Text is aligned on the left side
+A right margin of 50px;
+A  border of 10px on the right and 3px on the bottom;
+
+
+The yellow div has the following styles
+Background color is hexadecimal value for yellow 
+Text is aligned on the right side
+A left margin of 50px;
+A border of 3px on the bottom and 10px on the left;
+
+(Let's fix the color contrast here  – White on yellow is hard to read!)
+The heading and paragraph text is black (use hexadecimal values)
+ The heading uses a #c7e2c7 text-shadow that is offset 2px horizontally and 4px vertically
+
+The green div has the following styles
+The background color is hexadecimal value for green  (Use #00EB00, #008500, or #00D800) **updated
+Text is aligned on the left side
+A right margin of 50px;
+A  border of 10px on the right and 3px on the bottom;
+
+
+Any span elements should be underlined, have all uppercase, and not have any text-shadow.
+
+
+The footer should use a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
+
+
+Paragraphs within the footer have centered 20px text and 10px of padding on the top, right, and bottom only. (No padding on the left.)
